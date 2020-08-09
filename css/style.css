@@ -1,0 +1,163 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+header {
+	background: url(../img/banner.png);
+	background-size: cover;
+	opacity: 80%;
+	
+}
+
+.logo {
+	margin-top: 20px;
+}
+.navmenu ul {
+	list-style: none;
+	margin: 20px 10px;
+}
+.navmenu ul li {
+	display: inline-block;
+	padding: 20px 30px;
+}
+.navmenu ul li a {
+	color: white;
+	text-decoration: none;
+}
+.header-content{
+	margin: 50px 0 200px;
+}
+
+.header-content h2 {
+	color: white;
+	background-color: rgba(0,0,0,0.5); ;
+	
+	width: 350px;
+	text-align: center;
+}
+.header-content p {
+	
+	color: white;
+
+}
+.header-content span {
+	border-bottom: 4px solid white;
+	width: 5%;
+	display: block;
+	margin: 40px 0;
+	
+}
+.header-content button {
+	background: transparent;
+	padding: 10px 50px;
+	border:2px solid white;
+	color: white;
+
+}
+.midle {
+	background: #f5f5f5;
+
+}
+.midle-content{
+	margin: 200px 0 160px;
+}
+.midle-content h2{
+	line-height: 50px;
+}
+.midle-content span{
+	border-bottom: 2px solid silver;
+	display: block;
+	width: 5%;
+}
+.midle-content p{
+	width: 400px;
+	margin: 10px 0;
+}
+
+.midle-img {
+	position: relative;
+}
+.img1{
+	position: absolute;
+	top: 250px;
+	right: -100px;
+}
+.img2{
+	position: absolute;
+	top: 290px;
+    left: 170px;
+}
+.img1 img {
+	width: 860px;
+}
+
+.last {
+	background: #28282e;
+}
+
+.last-content{
+	margin: 150px 0 160px;
+}
+.last-content h2{
+	
+	color: white;
+
+}
+.last-content span{
+	border-bottom: 2px solid silver;
+	display: block;
+	width: 5%;
+}
+.last-content p{
+	width: 400px;
+	margin: 10px 0;
+	color: white;
+}
+
+.last-content button {
+	background: transparent;
+	padding: 10px 50px;
+	border:2px solid white;
+	color: white;
+
+}
+.last-img {
+	position: relative;
+}
+.img3 {
+	position: absolute;
+	top: 250px;
+}
+footer {
+	background: red;
+}
+.footer-content p {
+	
+	color: white;
+}
+.footer-content {
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+@media (min-width: 0px) and (max-width: 500px) {
+	.navmenu ul li {
+	padding: 20px 5px;
+	}
+	.navmenu ul {
+		text-align: center;
+	}
+	.logo {
+	margin: 0 auto;
+	}
+	.img1{
+		right: 0;
+	}
+	.img2{
+		left: 0;
+	}
+	.img3{
+		position: absolute;
+		top: 250px;
+	}
+}
